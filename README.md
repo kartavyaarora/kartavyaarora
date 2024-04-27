@@ -1,4 +1,5 @@
-![MasterHead](https://blog.talent500.co/wp-content/uploads/2022/09/BlogBanners_ReactNative-1200x500.png)
+![MasterHead](https://github.com/kartavyaarora/kartavyaarora/assets/69425545/184fcccf-b705-4f22-9055-41ec482236a7)
+
 <h1 align="center">Hi 👋, I'm Kartavya arora</h1>
 <h3 align="center">Tech enthusiast with a B.Tech in CSE specializing in DS and AI. Experienced in frontend development, leadership, and problem-solving. Passionate about crafting innovative solutions to drive user engagement and enhance project functionalities.</h3>
 
