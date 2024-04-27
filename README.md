@@ -1,4 +1,4 @@
-[![MasterHead](https://i.pinimg.com/564x/5b/93/65/5b936531db736e8556dd25c959815ec1.jpg)]
+[![MasterHead](https://i.pinimg.com/564x/5b/93/65/5b936531db736e8556dd25c959815ec1.jpg)](https://rishavchanda.io)
 <h1 align="center">Hi 👋, I'm Kartavya arora</h1>
 <h3 align="center">Tech enthusiast with a B.Tech in CSE specializing in DS and AI. Experienced in frontend development, leadership, and problem-solving. Passionate about crafting innovative solutions to drive user engagement and enhance project functionalities.</h3>
 
