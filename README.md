@@ -1,4 +1,5 @@
 ![MasterHead](https://github.com/kartavyaarora/kartavyaarora/assets/69425545/88fcaab0-7409-4293-91c1-43db02aeb2d6)
+![MasterHead](https://i.pinimg.com/564x/ef/41/da/ef41da65a8e75009afcc246e40c2221c.jpg)
 <h1 align="center">Hi 👋, I'm Kartavya arora</h1>
 <h3 align="center">Tech enthusiast with a B.Tech in CSE specializing in DS and AI. Experienced in frontend development, leadership, and problem-solving. Passionate about crafting innovative solutions to drive user engagement and enhance project functionalities.</h3>
 
