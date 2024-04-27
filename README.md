@@ -1,11 +1,6 @@
 <h1 align="center">Hi 👋, I'm Kartavya arora</h1>
 <h3 align="center">Tech enthusiast with a B.Tech in CSE specializing in DS and AI. Experienced in frontend development, leadership, and problem-solving. Passionate about crafting innovative solutions to drive user engagement and enhance project functionalities.</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kartavyaarora&label=Profile%20views&color=0e75b6&style=flat" alt="kartavyaarora" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kartavyaarora" alt="kartavyaarora" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/kartavyaarora4" target="blank"><img src="https://img.shields.io/twitter/follow/kartavyaarora4?logo=twitter&style=for-the-badge" alt="kartavyaarora4" /></a> </p>
 
 - 🔭 I’m currently working in **leadzen.ai**
 
