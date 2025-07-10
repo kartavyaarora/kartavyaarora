@@ -2,7 +2,7 @@
 
 <h1 align="center">Hi 👋, I'm Kartavya arora</h1>
 <h3 align="center">Tech enthusiast with a B.Tech in CSE specializing in DS and AI. Experienced in frontend development, leadership, and problem-solving. Passionate about crafting innovative solutions to drive user engagement and enhance project functionalities.</h3>
-<img align="right" alt="Coding" width="400" src="https://github.com/user-attachments/assets/6802b957-67f0-461e-905d-27ccbf0f53c0"/>
+<img align="right" alt="Coding" width="400" src="https://github.com/user-attachments/assets/41af0343-4ac8-41dd-9339-271f79d4b0e5"/>
 
 - 🔭 I’m currently working in **leadzen.ai**
 
