@@ -7,7 +7,7 @@ I'm a passionate and results-oriented Full Stack Developer with a strong foundat
 
 - 🔭 I’m currently working as a **Full Stack Developer at SATnPaper**, building features for an online education platform serving 5,000+ students.
 - 🌱 I’m currently deepening my expertise in **React Native** and **Advanced Cloud Architecture**.
-- 👨‍💻 All of my projects are available at [Coming Soon - Portfolio Link]
+- 👨‍💻 All of my projects are available at https://kartavyaarora.vercel.app/
 - 💬 Ask me about **React, Next.js, TypeScript, Python (Django/FastAPI), and System Design**.
 - 📫 How to reach me: **kartavya12.ka@gmail.com**
 - ⚡ Fun fact: **I'm an avid biker and a devoted dog lover. 🏍️🐶**
