@@ -4,6 +4,149 @@ import { projects } from "@/lib/data";
 import SectionHeader from "@/components/ui/SectionHeader";
 import Reveal from "@/components/ui/Reveal";
 
+function NewsAggregatorVisual() {
+  return (
+    <div className="flex flex-col gap-4 h-full min-h-[300px]">
+      {/* Pipeline Flow */}
+      <div
+        className="flex-1 flex flex-col gap-3 p-5 overflow-hidden"
+        style={{
+          background: "rgba(255,255,255,0.025)",
+          border: "1px solid var(--border)",
+        }}
+      >
+        <span
+          className="text-[10px] tracking-[0.1em]"
+          style={{ color: "var(--muted)" }}
+        >
+          DAILY PIPELINE
+        </span>
+
+        {/* Pipeline stages */}
+        {[
+          {
+            stage: "SCRAPE",
+            icon: "🔍",
+            text: "YouTube + RSS Feeds",
+            accent: "var(--accent)",
+          },
+          {
+            stage: "PROCESS",
+            icon: "⚙️",
+            text: "Markdown + Transcripts",
+            accent: "var(--accent2)",
+          },
+          {
+            stage: "CURATE",
+            icon: "🤖",
+            text: "LLM Ranking by Relevance",
+            accent: "var(--accent)",
+          },
+          {
+            stage: "DELIVER",
+            icon: "📧",
+            text: "Personalized Email Digest",
+            accent: "var(--accent2)",
+          },
+        ].map((item, i) => (
+          <div key={i} className="flex flex-col gap-2">
+            <div
+              className="flex items-center gap-3 p-4 rounded-sm relative overflow-hidden"
+              style={{
+                background:
+                  i % 2 === 0
+                    ? "rgba(200,240,78,0.08)"
+                    : "rgba(94,255,216,0.08)",
+                border: `1px solid ${item.accent}`,
+              }}
+            >
+              <div
+                className="absolute inset-0 pointer-events-none"
+                style={{
+                  background: `linear-gradient(135deg, transparent 40%, ${item.accent}15 100%)`,
+                }}
+              />
+
+              <span className="text-lg">{item.icon}</span>
+              <div className="flex-1">
+                <div
+                  className="text-[10px] tracking-[0.12em] font-semibold mb-0.5"
+                  style={{ color: item.accent }}
+                >
+                  {item.stage}
+                </div>
+                <div
+                  className="text-[11px] leading-[1.5]"
+                  style={{ color: "var(--text)" }}
+                >
+                  {item.text}
+                </div>
+              </div>
+
+              {/* Arrow to next stage */}
+              {i < 3 && (
+                <span
+                  className="text-[10px] absolute -bottom-4 left-1/2 transform -translate-x-1/2"
+                  style={{ color: "var(--muted)" }}
+                >
+                  ↓
+                </span>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Stats bar */}
+      <div
+        className="flex items-center justify-around px-5 py-4"
+        style={{
+          background: "rgba(255,255,255,0.025)",
+          border: "1px solid var(--border)",
+        }}
+      >
+        {[
+          { icon: "📰", label: "Multi-Source", value: "3+" },
+          { icon: "⏱️", label: "Automated", value: "Daily" },
+          { icon: "🎯", label: "Personalized", value: "100%" },
+        ].map((stat, i) => (
+          <div key={i} className="flex flex-col items-center gap-1">
+            <span className="text-base">{stat.icon}</span>
+            <div
+              className="font-syne font-bold text-sm"
+              style={{ color: "var(--accent)" }}
+            >
+              {stat.value}
+            </div>
+            <div
+              className="text-[9px] tracking-[0.08em]"
+              style={{ color: "var(--muted)" }}
+            >
+              {stat.label}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Loading indicator */}
+      <div
+        className="relative h-1 overflow-hidden"
+        style={{
+          background: "rgba(255,255,255,0.05)",
+        }}
+      >
+        <div
+          className="load-bar absolute inset-y-0 left-0 h-full"
+          style={{
+            background: "linear-gradient(90deg, var(--accent), var(--accent2))",
+            width: "75%",
+          }}
+        />
+      </div>
+    </div>
+  );
+}
+
 function ProjectVisual() {
   return (
     <div className="flex flex-col gap-4 h-full min-h-[300px]">
@@ -348,9 +491,11 @@ export default function Projects() {
               </div>
 
               {/* Right — visual */}
-              <div className="relative z-10">
+              <div className="relative z-10 hidden lg:block">
                 {project.title === "Q&A Support Bot" ? (
                   <RAGBotVisual />
+                ) : project.title === "AI News Aggregator" ? (
+                  <NewsAggregatorVisual />
                 ) : (
                   <ProjectVisual />
                 )}

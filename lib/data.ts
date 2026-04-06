@@ -110,22 +110,26 @@ export const skillGroups = [
 export const projects = [
   {
     num: "01",
-    title: "Music Mantra",
-    subtitle: "Feature-Packed Music Player",
+    title: "AI News Aggregator",
+    subtitle: "Intelligent Content Curation & Personalization System",
     description:
-      "A full-featured music streaming platform with song upload, real-time updates, user authentication, payment integration, and a polished player experience — all built for scale.",
-    tags: ["Next.js", "Supabase", "Stripe", "PostgreSQL"],
+      "A production-grade automated news aggregation pipeline that scrapes multiple sources, processes content with LLM-powered summarization, curates based on user preferences, and delivers personalized daily email digests.",
+    tags: ["Python", "PostgreSQL", "OpenAI API", "SQLAlchemy", "Docker", "Render"],
     stats: [
-      { num: "<500ms", label: "API Response" },
-      { num: "JWT/Auth", label: "Secure Access" },
-      { num: "Stripe", label: "Payments Integrated" },
+      { num: "Multi-Source", label: "YouTube + RSS" },
+      { num: "Daily", label: "Automated Pipeline" },
+      { num: "LLM-Powered", label: "Smart Curation" },
     ],
     highlights: [
-      "Stripe payment integration for premium features",
-      "Real-time updates via Supabase subscriptions",
-      "Advanced player with favorites & playlists",
+      "Multi-Source Scraping: Aggregates content from YouTube channels and RSS feeds (OpenAI, Anthropic blogs)",
+      "LLM Summarization: Generates concise summaries using OpenAI API with intelligent content processing",
+      "Personalized Ranking: Curator agent scores and ranks articles based on user profile and interests",
+      "Automated Pipeline: End-to-end workflow from scraping → processing → curation → email delivery",
+      "Modular Architecture: Registry pattern with base classes for easy extensibility of new sources",
+      "Production Deployment: Dockerized application with automated daily cron jobs on Render.com",
+      "Data Persistence: SQLAlchemy ORM with PostgreSQL for reliable storage and duplicate prevention",
     ],
-    github: "https://github.com/kartavyaarora/Music-Mantra", // update
+    github: "https://github.com/kartavyaarora/ai-news-aggregator",
     live: "#",
   },
   {
@@ -150,6 +154,26 @@ export const projects = [
       "Comprehensive Logging: Detailed logging for debugging and monitoring",
     ],
     github: "https://github.com/kartavyaarora/RAG-support-bot", // update
+    live: "#",
+  },
+   {
+    num: "03",
+    title: "Music Mantra",
+    subtitle: "Feature-Packed Music Player",
+    description:
+      "A full-featured music streaming platform with song upload, real-time updates, user authentication, payment integration, and a polished player experience — all built for scale.",
+    tags: ["Next.js", "Supabase", "Stripe", "PostgreSQL"],
+    stats: [
+      { num: "<500ms", label: "API Response" },
+      { num: "JWT/Auth", label: "Secure Access" },
+      { num: "Stripe", label: "Payments Integrated" },
+    ],
+    highlights: [
+      "Stripe payment integration for premium features",
+      "Real-time updates via Supabase subscriptions",
+      "Advanced player with favorites & playlists",
+    ],
+    github: "https://github.com/kartavyaarora/Music-Mantra", // update
     live: "#",
   },
 ];
