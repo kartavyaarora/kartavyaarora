@@ -4,7 +4,7 @@ export const personal = {
   location: "Jalandhar, Punjab",
   email: "kartavya12.ka@gmail.com",
   phone: "+91 7087190988",
-  linkedin: "https://linkedin.com/in/kartavya-arora", // update with real URL
+  linkedin: "https://www.linkedin.com/in/kartavya-arora12/", // update with real URL
   github: "https://github.com/kartavyaarora", // update with real URL
   tagline: "3+ years building fast, scalable, and beautiful web products.",
   available: true,
